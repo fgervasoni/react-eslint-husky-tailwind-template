@@ -2,8 +2,8 @@
 
 ## Prerequisites
 
-- Eslint: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-- Prettier - Code formatter: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+-   Eslint: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+-   Prettier - Code formatter: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
 ---
 
@@ -19,15 +19,13 @@ ctrl + shift + p
 cmd + shift + p
 **> Preferences: Open User Settings (JSON)**
 
-[========]
-
 add at least
 
 ```json
 {
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnPaste": false
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false
 }
 ```
 
