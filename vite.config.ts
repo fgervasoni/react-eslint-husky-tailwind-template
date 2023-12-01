@@ -1,14 +1,13 @@
 import { defineConfig } from 'vite';
-import mkcert from 'vite-plugin-mkcert';
 import react from '@vitejs/plugin-react-swc';
+import basicSsl from '@vitejs/plugin-basic-ssl';
 
 // https://vitejs.dev/config/
 export default defineConfig({
     server: {
-        https: true,
         port: 5000,
         open: '/',
     },
 
-    plugins: [react(), mkcert()],
+    plugins: [react(), basicSsl()],
 });
